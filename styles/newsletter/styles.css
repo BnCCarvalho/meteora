@@ -1,0 +1,31 @@
+.newsletter {
+  border: 2px solid black;
+  text-align: center;
+  width: 50%;
+  margin: 4.094rem auto;
+  padding: 40px 30px;
+  border-radius: 1em;
+}
+
+.newsletter p {
+  font-size: 20px;
+}
+
+.newsletter input {
+  padding: 0.3em;
+  width: 50%;
+  border-radius: 1em;
+}
+
+.newsletter div {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter button {
+  padding: 0.3em;
+  background-color: #9353ff;
+  color: #daff01;
+  border: none;
+  border-radius: 1em;
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Header Responsivo</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container-header">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo da Empresa" />
+        </div>
+        <nav class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nossas Lojas</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Promoções</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Digite o produto" />
+        <button type="button">Buscar</button>
+      </div>
+    </header>
+    <div class="search-bar-mobile">
+      <input type="text" placeholder="Digite o produto" />
+      <button type="button">Buscar</button>
+    </div>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/img1.png" class="d-block w-100" alt="Banner 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="/images/img2.png" class="d-block w-100" alt="Banner 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="/images/img3.png" class="d-block w-100" alt="Banner 3" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <main class="container-principal">
+      <section class="category">
+        <h2 class="title-category">Busque por categoria:</h2>
+        <ul class="list-category">
+          <li>
+            <img
+              src="./images/Categoria camiseta.png"
+              alt="Categoria de camisetas"
+            />
+            <p>Camiseta</p>
+          </li>
+          <li>
+            <img src="./images/Categoria Bolsa.png" alt="categoria de bolsa" />
+            <p>Bolsas</p>
+          </li>
+          <li>
+            <img
+              src="./images/Categoria Calçados.png"
+              alt="categoria de calçados"
+            />
+            <p>Calçados</p>
+          </li>
+          <li>
+            <img src="./images/Categoria calça.png" alt="categoria de calças" />
+            <p>Calças</p>
+          </li>
+          <li>
+            <img
+              src="./images/Categoria casacos.png"
+              alt="categoria de casacos"
+            />
+            <p>Casacos</p>
+          </li>
+          <li>
+            <img
+              src="./images/Categoria óculos.png"
+              alt="Categoria de óculos"
+            />
+            <p>Óculos</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="product">
+        <h2>Produtos que estão bombando!</h2>
+        <ul class="list-product">
+          <li>
+            <img
+              src="./images/Camiseta.png"
+              alt="um homem usando uma camiseta amarela com uma toca preta"
+            />
+            <div>
+              <h3>Camiseta Conforto</h3>
+              <p class="product-description">
+                Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o
+                verão. Modelagem unissex.
+              </p>
+              <p class="product-price">R$ 70,00</p>
+              <button>Ver mais</button>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/Calça.png"
+              alt="uma mulher negra vestindo uma camiseta estampada e uma calça ded linho"
+            />
+            <div>
+              <h3>Calça Alfaiataria</h3>
+              <p class="product-description">
+                Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!
+              </p>
+              <p class="product-price">R$ 180,00</p>
+              <button>Ver mais</button>
+            </div>
+          </li>
+          <li>
+            <img src="./images/Tenis.png" alt="tênis unissex branco" />
+            <div>
+              <h3>Tênis Chunky</h3>
+              <p class="product-description">
+                Snicker casual com solado mais alto e modelagem robusta. Modelo
+                unissex.
+              </p>
+              <p class="product-price">R$ 250,00</p>
+              <button>Ver mais</button>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/Jaqueta.png"
+              alt="um homem negro vestindo uma jaqueta jeans e uma toca preta"
+            />
+            <div>
+              <h3>Jaqueta Jeans</h3>
+              <p class="product-description">
+                Modelo unissex oversized com gola de camurça. Atemporal e
+                autêntica!
+              </p>
+              <p class="product-price">R$ 150,00</p>
+              <button>Ver mais</button>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/óculos.png"
+              alt="Um homem negro usando um óculos redondo e um casaco branco"
+            />
+            <div>
+              <h3>Óculos redondo</h3>
+              <p class="product-description">
+                Armação metálica em grafite com lentes arredondadas. Sem erro!
+              </p>
+              <p class="product-price">R$ 120,00</p>
+              <button>Ver mais</button>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/Bolsa.png"
+              alt="Uma mulher segurando uma bolsa de couro sintético"
+            />
+            <div>
+              <h3>Bolsa coringa</h3>
+              <p class="product-description">
+                Bolsa camel em couro sintético de alta duração. Ideal para
+                acompanhar você por uma vida!
+              </p>
+              <p class="product-price">R$ 120,00</p>
+              <button>Ver mais</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <section class="ease">
+      <h2>Conheça todas as nossas facilidades</h2>
+      <ul>
+        <li>
+          <img src="./images/x-diamond.png" alt="ícone de diamante" />
+          <div>
+            <h3>Pague pelo pix</h3>
+            <p>Ganhe 5% OFF em pagamentos via PIX</p>
+          </div>
+        </li>
+        <li>
+          <img src="./images/Vector.png" alt="ícone de flechas" />
+          <div>
+            <h3>Troca grátis</h3>
+            <p>Fique livre para trocar em até 30 dias.</p>
+          </div>
+        </li>
+        <li>
+          <img src="./images/flower1.png" alt="ícone de flor" />
+          <div>
+            <h3>Sustentabilidade</h3>
+            <p>Moda responsável, que respeita o meio ambiente.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="newsletter">
+      <p>
+        Quer receber nossas novidades, promoções exclusivas e 10% OFF na
+        primeira compra? Cadastre-se!
+      </p>
+      <div>
+        <input type="text" placeholder="Digite seu e-mail" />
+        <button>Enviar</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.
+      </p>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.ease {
+    background-color: black;
+    color: white;
+    padding: 2.5rem 0;
+}
+
+.ease h2 {
+    text-align: center;
+    padding-bottom: 1.875rem;
+}
+
+.ease ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.ease ul li {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.ease ul li div h3 {
+    color: #DAFF01;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.ease ul li div p {
+    font-size: 13px;
+}

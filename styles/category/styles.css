@@ -1,0 +1,31 @@
+.title-category {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-radius: 1em;
+  color: #daff01;
+  background-color: #9353ff;
+  padding: 9px 16px;
+}
+
+.list-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  border-radius: 1em;
+}
+
+.list-category li p {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 1em;
+}
+
+.category {
+  margin: 4.625rem 0;
+  border-radius: 1em;
+}
